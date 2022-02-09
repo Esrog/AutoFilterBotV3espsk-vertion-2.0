@@ -28,7 +28,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  ESPSK
     
 ➥ Creator : [KBK KBK](https://youtube.com/channel/UCjSJTMm4KamSx0dTUDlAGlA)
 
@@ -36,5 +36,5 @@ ABOUT = """
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://youtu.be/LajmsdwcMqQ)
+➥ Tutorial : [Click Me](https://youtu.be/jlUqfFCRMM4)
 """
