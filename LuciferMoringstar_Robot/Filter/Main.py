@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Movie Trailer 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -339,10 +339,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Movie Trailer 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
-                
+                Movie Trailer
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
@@ -355,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("ഇത് നിനക്ക് കിട്ടൂല നിനക്ക് വേണങ്കിൽ നീ SEARCH ചെയ്യണം👀",show_alert=True)
