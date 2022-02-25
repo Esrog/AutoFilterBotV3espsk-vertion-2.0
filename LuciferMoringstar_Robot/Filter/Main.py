@@ -352,7 +352,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
 
 
-        elif query.data == "pages":
-            await query.answer()
+        elif query.data == "filters":
+            await query.ilters()
     else:
-        await query.filter("ഇത് നിനക്ക് കിട്ടൂല നിനക്ക് വേണങ്കിൽ നീ SEARCH ചെയ്യണം👀",show_alert=True)
+        await query.filters("ഇത് നിനക്ക് കിട്ടൂല നിനക്ക് വേണങ്കിൽ നീ SEARCH ചെയ്യണം👀",show_alert=True)
